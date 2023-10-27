@@ -40,7 +40,7 @@ CREATE TABLE `ask` (
 --
 
 INSERT INTO `ask` (`id_ask`, `nama_asker`, `judul_ask`, `isi_ask`) VALUES
-(6, 'Marzuki', 'Tidak punya WhatsApp', 'setelah mengajukan peminjaman, sistem mengarahkan ke whatsapp, bagaimana user yang tidak punya whatsapp min?');
+(6, 'Ahmad', 'Tidak punya WhatsApp', 'setelah mengajukan peminjaman, sistem mengarahkan ke whatsapp, bagaimana user yang tidak punya whatsapp min?');
 
 -- --------------------------------------------------------
 
@@ -110,9 +110,9 @@ CREATE TABLE `ruangan` (
 --
 
 INSERT INTO `ruangan` (`id_ruangan`, `kode_ruangan`, `nama_ruangan`, `image`, `status_ruangan`) VALUES
-(1, 'R1.LK', 'Ruangan 1 Lab Komputer', '5e1382570d24e.png', 'Nganggur'),
-(2, 'R2.LK', 'Ruangan 2 Lab Komputer', '5e14771323e46.png', 'Nganggur'),
-(3, 'R3.LK', 'Ruangan 3 Lab Komputer', '5e13825fac4bd.png', 'Nganggur');
+(1, 'R1.RS', 'Seminar Gedung F', '5e1382570d24e.png', 'Nganggur'),
+(2, 'R2.RS', 'Seminar Gedung I', '5e14771323e46.png', 'Nganggur'),
+(3, 'R3.RS', 'Seminar Gedung E', '5e13825fac4bd.png', 'Nganggur');
 
 -- --------------------------------------------------------
 
@@ -132,7 +132,7 @@ CREATE TABLE `site` (
 --
 
 INSERT INTO `site` (`id_site`, `icon`, `logo`, `title`) VALUES
-(1, '5e14758da49b31.png', '5e14758da49b3.png', 'SISTEM PEMINJAMAN LAB KOMPUTER ');
+(1, '5e14758da49b31.png', '5e14758da49b3.png', 'SIPIRANG ');
 
 -- --------------------------------------------------------
 
