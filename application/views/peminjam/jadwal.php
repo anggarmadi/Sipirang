@@ -5,7 +5,7 @@
     <div class="container">
       <a href="index.php" class="navbar-brand">
 
-        <span class="brand-text font-weight-light text-white font-weight-bold">Sipirang</span>
+        <span class="brand-text font-weight-light text-white font-weight-bold">SiPiRang</span>
       </a>
 
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
