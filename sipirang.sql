@@ -110,10 +110,37 @@ CREATE TABLE `ruangan` (
 --
 
 INSERT INTO `ruangan` (`id_ruangan`, `kode_ruangan`, `nama_ruangan`, `image`, `status_ruangan`) VALUES
-(1, 'R1.RS', 'Seminar Gedung F', '5e1382570d24e.png', 'Nganggur'),
-(2, 'R2.RS', 'Seminar Gedung I', '5e14771323e46.png', 'Nganggur'),
-(3, 'R3.RS', 'Seminar Gedung E', '5e13825fac4bd.png', 'Nganggur');
-
+(1, 'GDR.RA', 'Lt.1 Ruang Rapat Akademik', '', 'Nganggur'),
+(2, 'GDR.RSU', 'Lt.1 Ruang Rapat SU / Humas', '', 'Nganggur'),
+(3, 'GDR.RP', 'Lt.4 Ruang Rapat Pimpinan', '', 'Nganggur'),
+(4, 'GDR.RS', 'Lt.4 Ruang Rapat Senat', '', 'Nganggur'),
+(5, 'GDR.RPH', 'Ruang Podcast Humas', '', 'Nganggur'),
+(6, 'CH.CHU', 'Ruang Utama CH', '', 'Nganggur'),
+(7, 'GA.RUA', 'Ruang Utama Auditorium', '', 'Nganggur'),
+(8, 'GA.RSK', 'Ruang Sayap Kanan', '', 'Nganggur'),
+(9, 'GA.MWA', 'Ruang MWA', '', 'Nganggur'),
+(10, 'PKM.A', 'Aula PKM', '', 'Nganggur'),
+(11, 'PKM.RS', 'Lt.2 Ruang Studio', '', 'Nganggur'),
+(12, 'G.E.SEM', 'Ruang Seminar E', '', 'Nganggur'),
+(13, 'G.E.1.1', 'Ruang E1.1', '', 'Nganggur'),
+(14, 'G.E.1.2', 'Ruang E1.2', '', 'Nganggur'),
+(15, 'G.F.SEM', 'Ruang Seminar F', '', 'Nganggur'),
+(16, 'G.F.1.5', 'Ruang F1.5', '', 'Nganggur'),
+(17, 'G.F.1.6', 'Ruang F1.6', '', 'Nganggur'),
+(18, 'G.F.1.14', 'Ruang F1.14', '', 'Nganggur'),
+(19, 'G.F.2.5', 'Ruang F2.5', '', 'Nganggur'),
+(20, 'G.I.SEM', 'Ruang Seminar I', '', 'Nganggur'),
+(21, 'G.I.1.1', 'Ruang I1.1', '', 'Nganggur'),
+(22, 'G.I.1.2', 'Ruang I1.2', '', 'Nganggur'),
+(23, 'GP.RP', 'Ruang Pustaka Lt.5', '', 'Nganggur'),
+(24, 'G.A.1.7', 'Ruangan Aula A1.7', '', 'Nganggur'),
+(25, 'G.A.1.8', 'Ruangan Aula A1.8', '', 'Nganggur'),
+(26, 'G.B.2.5', 'Ruangan B2.5', '', 'Nganggur'),
+(27, 'G.C.1.13', 'Ruang C1.13', '', 'Nganggur'),
+(28, 'G.C.1.14', 'Ruang C1.14', '', 'Nganggur'),
+(29, 'G.D.2.7', 'Ruang D2.7', '', 'Nganggur'),
+(30, 'G.D.2.1', 'Ruang D2.1', '', 'Nganggur'),
+(31, 'G.G.1.8', 'Ruang G1.8', '', 'Nganggur');
 -- --------------------------------------------------------
 
 --

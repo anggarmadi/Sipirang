@@ -1,11 +1,11 @@
 <div class="wrapper">
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-green">
     <div class="container">
       <a href="index.php" class="navbar-brand">
 
-        <span class="brand-text font-weight-light">Sipirang</span>
+        <span class="brand-text font-weight-light text-white font-weight-bold">Sipirang</span>
       </a>
 
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,10 +16,10 @@
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="<?php echo base_url('peminjam') ?>" class="nav-link">Beranda</a>
+            <a href="<?php echo base_url('peminjam') ?>" class="nav-link text-white">Beranda</a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url('peminjam/jadwal') ?>" class="nav-link">Jadwal</a>
+            <a href="<?php echo base_url('peminjam/jadwal') ?>" class="nav-link text-white">Jadwal</a>
           </li>
         </ul>
       </div>

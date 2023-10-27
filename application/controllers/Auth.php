@@ -46,6 +46,7 @@ class Auth extends CI_Controller
 					];
 
 					$this->session->set_userdata($userdata);
+					$this->session->set_flashdata('message', '');
 					redirect(strtolower($cek_username['level']));
 				} else {
 					$this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Password salah untuk username ' . $username . '!</div>');

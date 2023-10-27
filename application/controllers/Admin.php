@@ -19,6 +19,7 @@ class Admin extends CI_Controller
 		$data['user'] = $this->session->id_user;
 		$data['username'] = $this->session->username;
 		$data['nama_lengkap'] = $this->session->nama_lengkap;
+		$this->session->set_flashdata('message', '');
 		$this->load->view('templates/header', $data);
 		$this->load->view('admin/dashboard', $data);
 		$this->load->view('templates/footer');
