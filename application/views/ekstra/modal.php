@@ -298,10 +298,9 @@
                             <label>Keterangan Peminjaman</label>
                             <select name="keterangan" id="keterangan" class="form-control">
                                 <option value="Seminar">Seminar</option>
-                                <option value="OSIS">OSIS</option>
                                 <option value="Rapat">Rapat</option>
                                 <option value="Pelatihan/Workshop">Pelatihan/Workshop</option>
-                                <option value="Kegiatan Kepemimpinan">Kegiatan Kepemimpinan</option>
+                                <option value="Lainnya">Lainnya</option>
                             </select>
                         </div>
                     </div>
@@ -368,10 +367,9 @@
                                 <label>Keterangan Peminjaman</label>
                                 <select name="keterangan" id="keterangan" class="form-control">
                                     <option value="Seminar">Seminar</option>
-                                    <option value="OSIS">OSIS</option>
                                     <option value="Rapat">Rapat</option>
                                     <option value="Pelatihan/Workshop">Pelatihan/Workshop</option>
-                                    <option value="Kegiatan Kepemimpinan">Kegiatan Kepemimpinan</option>
+                                    <option value="Lainnya">Lainnya</option>
                                 </select>
                             </div>
                         </div>
