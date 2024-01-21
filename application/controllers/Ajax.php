@@ -105,15 +105,16 @@ class Ajax extends CI_Controller
         $timenow = strtotime($nowdate) + strtotime($nowtime);
 
         $limitdate = new DateTime(date('Y-m-d'));
-        $limitdate->modify('+4 day');
+        $limitdate->modify('+7 day');
         $limitdate = $limitdate->format('Y-m-d');
 
         if ($jam_mulai > $jam_selesai) {
             echo "Waktu tidak valid";
         } elseif ($timeinput < $timenow) {
             echo "Waktu tidak valid";
-        } elseif ($tanggal > $limitdate) {
-            echo "Peminjaman hanya untuk 3 hari kedepan";
+        } elseif ($tanggal < $limitdate) {
+            // echo "Peminjaman hanya untuk 3 hari kedepan";
+            echo "Peminjaman hanya bisa dilakukan 7 hari sebelum rungan digunakan";
         }
     }
 

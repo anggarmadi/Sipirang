@@ -32,7 +32,7 @@ $datauser = $this->db->query($query)->result();
                                 <th>No.</th>
                                 <th>Nama Lengkap</th>
                                 <th>Username</th>
-                                <th>NIP/NIS</th>
+                                <th>NIP/NIM</th>
                                 <th>No. Telepon</th>
                                 <th class="col-xs-2">Aksi</th>
                             </tr>

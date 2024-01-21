@@ -37,7 +37,7 @@ $query = $this->db->query("SELECT * FROM user WHERE status=1 ORDER BY level")->r
 								<th>No.</th>
 								<th>Nama Lengkap</th>
 								<th>Username</th>
-								<th>NIP</th>
+								<th>NIP/NIM</th>
 								<th>Level</th>
 								<th class="col-xs-2">Aksi</th>
 							</tr>

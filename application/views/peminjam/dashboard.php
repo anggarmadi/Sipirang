@@ -17,7 +17,6 @@ foreach ($jadwal as $q) :
 endforeach;
 ?>
 <div class="wrapper">
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand-md navbar-light navbar-green">
     <div class="container">
@@ -51,6 +50,13 @@ endforeach;
     </div>
   </nav>
   <!-- /.navbar -->
+
+   <!-- Welcome Section -->
+   <div class="welcome-section ">
+     <h1 class="brand-text font-weight-light text-white font-weight-bold">Selamat Datang</h1>
+     <h1 class="brand-text font-weight-light text-white font-weight-bold">di Sistem Informasi Peminjaman Ruangan (Sipirang)</h1>
+     <h1 class="brand-text font-weight-light text-white font-weight-bold">Universitas Andalas</h1>
+    </div>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">

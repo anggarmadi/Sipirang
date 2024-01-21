@@ -59,7 +59,8 @@ class Peminjam extends CI_Controller
 		$admin = $this->db->get_where('user', ['level'=>'Admin'])->row_array();
 
 		$url = 'https://api.whatsapp.com/send?phone=+62'.$admin['no_telp'].'&text=Assalumalaikum%20Admin.%0A%0ARequest%20Peminjaman%20dengan%20Info%0Ausername%20%3A%20'.$username.'%0Ajam%20mulai%20%3A%20'.$jam_mulai.'%0Ajam%20selesai%20%3A%20'.$jam_berakhir.'%0Atanggal%20%3A%20'.date_format($tanggalformatted, 'd / m / Y').'%0Aketerangan%20%3A%20'.$keterangan;
-		redirect($url);
+		// redirect($url);
+		redirect('peminjam');
 	}
 
 	public function batalpinjam($id_user, $id_ruangan)

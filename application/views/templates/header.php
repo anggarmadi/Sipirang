@@ -26,6 +26,29 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="<?php echo base_url('assets/') ?>dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <style>
+    /* Add custom styles for the welcome section */
+    .welcome-section {
+        position: relative;
+        text-align: center;
+        padding: 300px 0; /* Adjust the padding according to your design */
+    }
+
+    .welcome-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('assets/dist/img/bg_login.jpg'); /* Replace with the actual path to your background image */
+      background-size: cover;
+      background-position: center;
+      filter: blur(3px); /* Adjust the blur value as needed */
+      z-index: -1; /* Place the pseudo-element below the text content */
+    }
+  </style>
 </head>
 
 <body class="hold-transition <?php if($this->session->userdata('level')=="Peminjam"){ echo "layout-top-nav"; }elseif(current_url()==base_url('publik')){ echo 'layout-top-nav'; }else{ echo "sidebar-mini layout-fixed"; } ?>">
